@@ -1,0 +1,111 @@
+.App {
+  /* text-align: center; */
+  overflow:auto
+}
+
+.wrapper{
+  width: 1024px;
+  height:700px;
+  border: 1px solid red;
+  background-color: #cccccc;
+}
+
+.header{
+   display: flex;
+   /* justify-content: space-around; */
+}
+
+.header_left{
+  /* flex-grow:1; */
+  background-color: blanchedalmond;
+  /* height: 50px; */
+}
+/* .header_right{
+  flex-grow: 10;
+  border:1px solid yellowgreen;
+} */
+
+.btn{
+
+  background-color: blueviolet;
+  margin-left: 40px;
+}
+
+.cardbody{
+  width: 500px;
+  height: 300px;
+  background-color: aquamarine;
+  margin-left:  180px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.line1{
+  background-color: pink;
+  flex-grow: 7;
+  display: flex;
+}
+.line2{
+  background-color:whitesmoke;
+  flex-grow: 7;
+  display:flex;
+}
+
+.line3{
+  background-color: blueviolet;
+  flex-grow: 1;
+
+}
+
+.line1_left{
+  background-color:rgb(243, 108, 108);
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.line1_right{
+  background-color:white;
+  flex-grow: 5;
+}
+
+/* 为什么line1_left_top不能写在第一个？ */
+.line1_left_mid11{
+  background-color:black;
+  flex-grow:1;
+}
+.line1_left_bottom{
+  background-color: cyan;
+  flex-grow:2;
+  display:flex;
+}
+
+.line1_left_top{
+  background-color: chocolate;
+  flex-grow:4;
+} .
+/* 
+.line1_left_bottom-humi{
+  background-color: cadetblue;
+  flex-grow:1;
+} */
+
+.line1_left_bottom-humi{
+  background-color: cadetblue;
+  flex-grow:1;
+}
+.line1_left_bottom-wind{
+  background-color:red;
+  flex-grow:1;
+}
+
+
+.line2_left{
+  background-color:#d1f047;
+  flex-grow: 3;
+}
+.line2_right{
+  background-color: grey;
+  flex-grow: 5;
+}
